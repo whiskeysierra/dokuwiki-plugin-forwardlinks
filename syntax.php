@@ -54,7 +54,7 @@ class syntax_plugin_forwardlinks extends DokuWiki_Syntax_Plugin {
 
         $pages = p_get_metadata($data[0], 'relation references');
 
-        $renderer->doc .= '<div id="plugin__forwardlinks">' . DW_LF;
+        $renderer->doc .= '<div id="plugin__forwardlinks">';
 
         if (empty($pages)) {
             global $lang;
@@ -75,7 +75,7 @@ class syntax_plugin_forwardlinks extends DokuWiki_Syntax_Plugin {
             $renderer->doc .= '</ul>';
         }
 
-        $renderer->doc .= '</div>' . DW_LF;
+        $renderer->doc .= '</div>';
 
         return true;
     }
