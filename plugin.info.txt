@@ -1,0 +1,7 @@
+base   forwardlinks
+author Willi Schönborn
+email  w.schoenborn@gmail.com
+date   2015-07-19
+name   forwardlinks plugin
+desc   Lists all pages that a given page links to
+url    https://www.dokuwiki.org/plugin:forwardlinks
